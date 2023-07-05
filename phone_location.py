@@ -12,7 +12,7 @@ import phonenumbers
 from phonenumbers import geocoder
 import folium
 
-number = "+201155765080"
+number = "+xxxxxxxxxxxxx" # +CodeCountry PhoneNumber
 
 
 check_number = phonenumbers.parse(number)
@@ -28,7 +28,7 @@ print(carrier.name_for_number(service_provider, "en"))
 
 #-----------------------------------
 
-key = "f419c54674dd4cf0984c11b8c19b538a"
+key = "xxxxxxxxxxxxxxxxxxxxxxxxxx" From =>  https://opencagedata.com/dashboard#geocoding > API Keys
 
 from opencage.geocoder import OpenCageGeocode
 geocoder = OpenCageGeocode(key)
