@@ -28,7 +28,7 @@ print(carrier.name_for_number(service_provider, "en"))
 
 #-----------------------------------
 
-key = "xxxxxxxxxxxxxxxxxxxxxxxxxx" From =>  https://opencagedata.com/dashboard#geocoding > API Keys
+key = "xxxxxxxxxxxxxxxxxxxxxxxxxx" # From =>  https://opencagedata.com/dashboard#geocoding > API Keys
 
 from opencage.geocoder import OpenCageGeocode
 geocoder = OpenCageGeocode(key)
